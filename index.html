@@ -1,16 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body>
-    <h1>Welcome to Nora´s home page</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An online shop selling men's and women’s rain jackets."
+    />
+    <title>Rainydays</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="top">
+      <header>
+        <nav>
+          <img
+            src="images/Rainydays_Logo2.jpg"
+            alt="Logo"
+            class="RainydaysLogo"
+          />
+          <ul class="menu">
+            <li><a href="mens.html" class="menu">MENS</a></li>
+            <li><a href="woman.html" class="menu">WOMAN</a></li>
+            <li><a href="aboutUs.html" class="menu">ABOUT US</a></li>
+            <li><a href="contactUs.html" class="menu">CONTACT US</a></li>
+          </ul>
+          <div class="search">
+            <input type="text" placeholder="Search.." />
+          </div>
+          <img
+            class="shoppingCart"
+            src="icons/Shopping cart.svg"
+            alt="ShoppingCart"
+          />
+        </nav>
+      </header>
 
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quis deserunt consequatur officia perspiciatis ducimus, sapiente obcaecati possimus </p>
+      <section class="section1Homepage">
+        <!--   <img src="images/BackgroundPhotoHomepage.jpg" alt="BackgroundImageHomepage" class="backgroundImageHomepage"> -->
+        <h1>
+          PUSHING <br />
+          THE <br />
+          COMFORT ZONE
+        </h1>
+        <button class="exploreButton">EXPLORE</button>
+      </section>
+    </section>
 
-    <img src="images/Lighthouse.png" alt="Lighthouse">
-</body>
+    <h2>SHOP THE COLLECTION</h2>
+
+    <section class="shopTheCollection">
+      <div class="column manImage">
+        <a href="./mens.html" class="categoryText"> MEN </a>
+      </div>
+      <div class="column womanImage">
+        <a href="./woman.html" class="categoryText"> WOMEN </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>GET INSPIRED</h2>
+
+      <div class="getInspired">
+        <!--   <img
+          class="GetInspiredImg"
+          src="images/getInspired.jpeg"
+          alt="Get Inspired"
+        /> -->
+        <p class="pushingText">
+          PUSHING THE <br />COMFORT <br />
+          ZONE
+        </p>
+        <!-- <p>
+          Lorem Ipsum <br />
+          Nequi omnit quasit eost aut fugit ut estium susam fuga. Ficaepe
+          liatque porepera dolorporum que del et est et que et anis cum nos
+          volorpor aut a doluptatem dolupta temqui aut demolup tibuscitem.
+          <br />
+          Ficaepe liatque porepera dolorporum que del et est et que et anis cum
+          nos. -->
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>
+        <img src="images/Rainydays_Logo2.jpg" alt="Logo" class="footerLogo" />
+      </div>
+      <div>
+        <ul class="liste">
+          <li>INFORMATION</li>
+          <li>Terms & Conditions</li>
+          <li>Shipping</li>
+          <li>About</li>
+          <li>Payment</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="liste">
+          <li>CONTACT US</li>
+          <li>Terms & Conditions</li>
+          <li>Shipping</li>
+          <li>About</li>
+          <li>Payment</li>
+        </ul>
+      </div>
+      <div class="footerIcons">
+        <img src="icons/Facebook.svg" alt="facebookIcon" />
+        <img src="icons/Twitter.svg" alt="twitterIcon" />
+        <img src="icons/Instagram.svg" alt="instagramIcon" />
+      </div>
+    </div>
+  </body>
 </html>
