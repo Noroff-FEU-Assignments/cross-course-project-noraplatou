@@ -1,0 +1,114 @@
+.topContactsUs {
+  background: url(../images/ContactUS/BackgroundPhotoContactUS.jpeg);
+  background-size: cover;
+  background-position: 50% 55%;
+  height: 70vh;
+}
+
+ul.breadcrumbContactUs {
+  padding: 10px 100px;
+  list-style: none;
+  color: #0a3641;
+}
+
+ul.breadcrumbContactUs li {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul.breadcrumbContactUs li + li:before {
+  padding: 8px;
+  color: #0a3641;
+  content: "/\00a0";
+}
+
+ul.breadcrumbContactUs li a {
+  color: #0a3641;
+  text-decoration: none;
+}
+
+.section1ContactPage {
+  margin-top: 35vh;
+  margin-left: 100px;
+}
+
+.section1ContactPage h1 {
+  color: #f99311;
+}
+
+.contactUsTextBox {
+  color: #0a3641;
+  font-size: 20;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32em;
+  text-align: center;
+}
+
+.contactUsIcons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 10px;
+  max-width: 800px;
+  max-height: 150px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contactUsBox img {
+  width: 70px;
+  height: 70px;
+  border: rgb(176, 174, 174);
+}
+
+h4 {
+  list-style: none;
+  text-align: center;
+  color: #0a3641;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.formContainer {
+  display: flex;
+  height: 900px;
+  width: 700px;
+  text-align: left;
+  max-width: 800px;
+  margin: 50px;
+  color: #0a3641;
+  font-size: 20px;
+}
+
+.formContainer * {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid #0a3641;
+  border-radius: 4px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+#message {
+  padding: 200px;
+}
+
+.formButton {
+  display: flex;
+  background-color: #0a3641;
+  color: #f4f3f0;
+  padding: 10px 20px 10px 20px;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+  height: 50px;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+}

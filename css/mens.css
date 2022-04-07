@@ -1,0 +1,125 @@
+.topMens {
+  background: url(../images/MENS/BackgroundPhotoMenPage.jpeg);
+  background-size: cover;
+  background-position: 50% 35%;
+  height: 70vh;
+}
+
+ul.breadcrumbMen {
+  padding: 10px 100px;
+  list-style: none;
+  color: #0a3641;
+}
+
+ul.breadcrumbMen li {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul.breadcrumbMen li + li:before {
+  padding: 8px;
+  color: #0a3641;
+  content: "/\00a0";
+}
+
+ul.breadcrumbMen li a {
+  color: #0a3641;
+  text-decoration: none;
+}
+
+.productListMen {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.products img {
+  width: 100%;
+  border: rgb(176, 174, 174);
+  border-style: solid;
+}
+
+h3 {
+  list-style: none;
+  text-align: center;
+  color: #0a3641;
+}
+
+.products p {
+  list-style: none;
+  text-align: center;
+  color: #f99311;
+  font-size: 20px;
+}
+
+.newCollection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: auto;
+  margin: 50px auto;
+  margin-bottom: 15vh;
+  grid-gap: none;
+  position: relative;
+}
+
+.column {
+  position: relative;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.leftImage {
+  background-image: url(../images/MENS/leftPicture.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.rightImage {
+  background-image: url(../images/MENS/rightPicture.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.newCollectionTextLeft {
+  color: #f4f3f0;
+  font-weight: bold;
+  font-size: 20px;
+  top: 310px;
+  text-align: left;
+  margin-left: 320px;
+  /* width: 100%; */
+  position: absolute;
+}
+
+.newCollectionTextLeftBottom {
+  color: #f99311;
+  font-size: 20px;
+  top: 335px;
+  text-align: left;
+  margin-left: 320px;
+  /* width: 100%; */
+  position: absolute;
+}
+
+.newCollectionTextRight {
+  color: #f4f3f0;
+  font-weight: bold;
+  font-size: 20px;
+  bottom: 180px;
+  text-align: left;
+  margin-left: 380px;
+  /* width: 100%; */
+  position: absolute;
+}
+
+.newCollectionTextRightBottom {
+  color: #f99311;
+  font-size: 20px;
+  bottom: 160px;
+  text-align: left;
+  margin-left: 400px;
+  /* width: 100%; */
+  position: absolute;
+}

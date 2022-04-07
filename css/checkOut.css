@@ -1,0 +1,23 @@
+ul.breadcrumbCheckout {
+  padding: 10px 100px;
+  list-style: none;
+  color: #0a3641;
+  padding-top: 70px;
+}
+
+ul.breadcrumbCheckout li {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul.breadcrumbCheckout li + li:before {
+  padding: 8px;
+  color: #0a3641;
+  content: "/\00a0";
+}
+
+ul.breadcrumbCheckout li a {
+  color: #0a3641;
+  text-decoration: none;
+}
