@@ -171,13 +171,19 @@ ul.breadcrumbSpesific li a {
 button {
   background-color: #0a3641;
   color: #f4f3f0;
-  border: 0;
-  font-weight: semi-bold;
-  font-size: 20px;
+  border: solid 2px #0a3641;
+  font-weight: bold;
+  font-size: 15px;
   height: 50px;
   width: 135px;
   align-items: center;
   justify-content: center;
+}
+
+button:hover {
+  background-color: #f4f3f0;
+  color: #0a3641;
+  border: solid 2px #0a3641;
 }
 
 .container2 {
