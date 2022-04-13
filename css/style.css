@@ -1,0 +1,270 @@
+/* font-family: 'Raleway', sans-serif;  */
+
+@font-face {
+  font-family: "Raleway";
+  src: url();
+}
+
+html {
+  background-color: #f4f3f0;
+}
+
+body {
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.RainydaysLogo {
+  height: 90%;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+@media (max-width: 1000px) {
+  .RainydaysLogo {
+    height: 60%;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}
+
+.footerLogo {
+  width: 20vh;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    text-decoration: none;
+  }
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: none;
+  color: #0a3641;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.menu li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  .menu li {
+    display: none;
+  }
+}
+
+.menu:hover {
+  color: #f99311;
+}
+
+.top {
+  background: url(../images/BackgroundPhotoHomepage.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.search {
+  margin-right: 30px;
+}
+.shoppingCart {
+  margin-right: 40px;
+}
+
+.section1Homepage {
+  margin-top: none;
+  margin-top: 30vh;
+  margin-left: 100px;
+}
+
+h1 {
+  color: #0a3641;
+  font-size: 45px;
+}
+
+.exploreButton {
+  background-color: #0a3641;
+  color: #f4f3f0;
+  border: solid 2px #0a3641;
+  font-weight: bold;
+  font-size: 15px;
+  height: 50px;
+  width: 135px;
+  align-items: center;
+  justify-content: center;
+}
+
+.exploreButton:hover {
+  background-color: #f4f3f0;
+  color: #0a3641;
+  border: solid 2px #0a3641;
+}
+
+/* SHOP THE COLLECTION SECTION */
+
+.shopTheCollection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: auto;
+  margin: 50px auto;
+  grid-gap: none;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .shopTheCollection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.shopTheCollection h2 {
+  grid-column: -1/1;
+  color: #0a3641;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  position: relative;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.manImage {
+  background-image: url(../images/menSelectionPhoto.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.womanImage {
+  background-image: url(../images/womanSelectionPhoto.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.categoryText {
+  color: #f99311;
+  font-weight: bold;
+  font-size: 50px;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.categroyImage {
+  width: 100%;
+}
+
+.categoryText:hover {
+  color: #f4f3f0;
+}
+
+/* GET INSPIRED */
+
+.getInspired {
+  background-image: url(../images/getInspired.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  /* border: 2px solid black; */
+  margin-bottom: 100px;
+  position: relative;
+}
+
+h2 {
+  grid-column: -1/1;
+  color: #0a3641;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+}
+
+.pushingText {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+  font-weight: bold;
+  color: #f99311;
+  font-size: 50px;
+}
+
+@media (max-width: 1000px) {
+  .pushingText {
+    top: 50px;
+    right: 20px;
+    font-size: 30px;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex: 4;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.footerLogo {
+  width: 20vh;
+}
+
+@media (max-width: 1000px) {
+  .footerLogo {
+    display: none;
+  }
+}
+
+.footerIcons * {
+  width: 4vh;
+  padding: 2px;
+}
+
+.liste {
+  flex-basis: 30%;
+  color: #0a3641;
+  list-style: none;
+  font-size: 20;
+  font-weight: medium;
+  text-align: center;
+}
+
+.liste :first-child {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.liste li {
+  margin-bottom: 10px;
+}
+
+/* MENS */

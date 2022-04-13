@@ -1,0 +1,68 @@
+.checkOutSuccessMainContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/checkOutSuccess/success1.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+}
+
+.textBoxContainerBig {
+  background-color: rgb(10, 54, 65, 95%);
+  height: 55vh;
+  width: 70vh;
+  margin-left: 49vh;
+  margin-top: 190px;
+  border: solid 1px rgb(10, 54, 65);
+  /* filter: blur(8px); */
+}
+
+.textBoxContainer {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 40vh;
+  align-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.textBoxContainer div {
+  display: flex;
+  flex: 1;
+}
+
+.thankYouHeader {
+  color: #eb983a;
+  font-size: 30px;
+  font-weight: bolder;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.thankYouText {
+  color: #f4f3f0;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.thankYouButton {
+  justify-content: center;
+  align-content: center;
+}
+
+.thankYouButtonDesign {
+  background-color: #f4f3f0;
+  border: #0a3641 solid 3px;
+  color: #0a3641;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+}
+.thankYouButtonDesign:hover {
+  background-color: #0a3641;
+  border: #f4f3f0 solid 3px;
+  color: #f4f3f0;
+}
